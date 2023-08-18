@@ -44,7 +44,7 @@ git push -u origin main
 # To Clone a repository from github
 ```
 cd // back to main directory
-mkdir patrick-fund-me-f23
-git clone https://github.com/Cyfrin/foundry-fund-me-f23 patrick-fund-me-f23
-code patrick-fund-me-f23/
+mkdir patrick-fund-me-f23 // Make a new folder for upcoming clone project
+git clone https://github.com/Cyfrin/foundry-fund-me-f23 patrick-fund-me-f23 // Clone the project from github to local folder
+code patrick-fund-me-f23/ // Open the project in VS Code
 ```
