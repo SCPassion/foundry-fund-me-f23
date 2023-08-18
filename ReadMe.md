@@ -45,3 +45,15 @@ origin keyword is a shortened name for the giant URL, and the URL is the actual 
 
 9. git push -u origin main
 Push all of our codes to the URL asssociated with origin and on the main branch.
+
+# My way to do it
+```
+// If there is a origin existed
+git remote remove origin
+git remote add origin https://github.com/SCPassion/foundry-fund-me-f23.git
+git branch -M main
+git add .
+git status
+git commit -m 'My first Commit'
+git push -u origin main
+```
