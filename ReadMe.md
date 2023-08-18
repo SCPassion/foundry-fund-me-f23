@@ -32,9 +32,9 @@ Get started by creating a new file or uploading an existing file. We recommend e
 # Push an update to github, (your need to have a repository created on github)
 ```
 // If there is a origin existed
-git remote remove origin
+git remote remove origin // If you would like to change a new repository
 git remote add origin https://github.com/SCPassion/foundry-fund-me-f23.git
-git branch -M main
+git branch -M main // Change the default branch from "master" to "main" locally, you will need to push the changes
 git add .
 git status
 git commit -m 'My first Commit'
