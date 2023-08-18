@@ -1,6 +1,8 @@
 [profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
-
+ffi = true # allows commands to directly run on your machine, oftenly ,you have to set this to false
+libs = ["lib"] 
+out = "out" 
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"] 
+src = "src" 
+# When seeing @chainlink/contracts, replace with lib/chainlink-brownie-contracts/contracts/
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
