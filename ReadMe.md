@@ -40,3 +40,11 @@ git status
 git commit -m 'My first Commit'
 git push -u origin main
 ```
+
+# To Clone a repository from github
+```
+cd // back to main directory
+mkdir patrick-fund-me-f23
+git clone https://github.com/Cyfrin/foundry-fund-me-f23 patrick-fund-me-f23
+code patrick-fund-me-f23/
+```
